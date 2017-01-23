@@ -58,6 +58,7 @@
             this.btnPlay.TabIndex = 0;
             this.btnPlay.Text = "PLAY";
             this.btnPlay.UseVisualStyleBackColor = false;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // frmInicial
             // 
@@ -73,6 +74,7 @@
             this.Name = "frmInicial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogo de Perguntas e Respostas";
+            this.Load += new System.EventHandler(this.frmInicial_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
